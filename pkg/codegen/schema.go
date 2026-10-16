@@ -1924,6 +1924,9 @@ func GenFieldsFromProperties(props []Property) []string {
 		for i, k := range keys {
 			tags[i] = fmt.Sprintf(`%s:"%s"`, k, fieldTags[k])
 		}
+		if p.Required {
+			tags = append(tags, `binding:"required"`)
+		}
 		field += "`" + strings.Join(tags, " ") + "`"
 		fields = append(fields, field)
 	}
