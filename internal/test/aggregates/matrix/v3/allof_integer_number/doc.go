@@ -6,4 +6,4 @@
 // allOf over a number and an integer: every value is an integer, so the composition is one.
 package matrixv3allofintegernumber
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

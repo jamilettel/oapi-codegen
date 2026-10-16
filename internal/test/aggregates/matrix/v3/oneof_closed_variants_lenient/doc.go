@@ -6,4 +6,4 @@
 // oneof_closed_variants with output-options.lenient-union-accessors: As* of a variant with additionalProperties: false ignores the keys it doesn't declare, as it does for any other variant.
 package matrixv3oneofclosedvariantslenient
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

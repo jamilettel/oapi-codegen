@@ -108,7 +108,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/minimal-server/gin/api"
+	"github.com/jamilettel/oapi-codegen/v2/examples/minimal-server/gin/api"
 	"github.com/gin-gonic/gin"
 )
 

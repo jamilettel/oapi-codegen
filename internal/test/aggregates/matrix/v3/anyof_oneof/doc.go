@@ -6,4 +6,4 @@
 // anyOf and oneOf on the same schema, with inline members. Both lists used to name their members <Schema><index> and failed with a duplicate type name (#839).
 package matrixv3anyofoneof
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

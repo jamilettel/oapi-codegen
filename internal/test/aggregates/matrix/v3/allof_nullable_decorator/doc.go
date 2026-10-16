@@ -6,4 +6,4 @@
 // allOf over a $ref and `nullable: true`, the OpenAPI 3.0 nullable-$ref idiom (#1898).
 package matrixv3allofnullabledecorator
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

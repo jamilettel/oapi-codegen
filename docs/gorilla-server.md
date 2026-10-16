@@ -111,7 +111,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/minimal-server/gorillamux/api"
+	"github.com/jamilettel/oapi-codegen/v2/examples/minimal-server/gorillamux/api"
 	"github.com/gorilla/mux"
 )
 

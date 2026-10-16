@@ -6,4 +6,4 @@
 // A discriminated oneOf with an int64 discriminator whose mapping includes a value one past 2^53, which a float64 can't hold. Each value dispatches and stamps exactly.
 package matrixv3oneofdiscriminatorint64
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

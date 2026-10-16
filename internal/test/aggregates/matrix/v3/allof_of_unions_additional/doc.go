@@ -6,4 +6,4 @@
 // allOf over two $refs to unions and a member that allows additional string properties. Setting one union's variant must keep the other's data and the additional properties.
 package matrixv3allofofunionsadditional
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

@@ -10,7 +10,7 @@ import (
 	"github.com/oapi-codegen/testutil"
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/oapi-codegen/oapi-codegen/v2/internal/test/parameters/roundtrip/echo/gen"
+	. "github.com/jamilettel/oapi-codegen/v2/internal/test/parameters/roundtrip/echo/gen"
 )
 
 type testServer struct {

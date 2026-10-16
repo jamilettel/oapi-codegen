@@ -6,4 +6,4 @@
 // allOf over a $ref to an enum and an enum of its own, which overlap: the composition allows the values in both.
 package matrixv3allofenumintersection
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

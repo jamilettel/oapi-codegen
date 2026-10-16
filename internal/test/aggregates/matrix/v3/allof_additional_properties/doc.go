@@ -6,4 +6,4 @@
 // allOf over two $refs that each allow the same additionalProperties. Failed with "merging two schemas with additional properties, this is unhandled".
 package matrixv3allofadditionalproperties
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

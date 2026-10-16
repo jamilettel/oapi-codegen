@@ -13,4 +13,4 @@
 // The round trips are skipped: v1 drops the members' additionalProperties.
 package matrixv1allofadditionalproperties
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

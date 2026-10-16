@@ -6,4 +6,4 @@
 // allOf with a oneOf next to it whose branches are $refs to schemas that only add constraints. Like inline constraint-only branches, the oneOf is dropped, so the schema stays an alias of its allOf member.
 package matrixv3allofconstraintoneofrefs
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

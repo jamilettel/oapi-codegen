@@ -5,7 +5,7 @@ import (
 
 	"github.com/kataras/iris/v12"
 	middleware "github.com/oapi-codegen/iris-middleware"
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/petstore-expanded/iris/api"
+	"github.com/jamilettel/oapi-codegen/v2/examples/petstore-expanded/iris/api"
 )
 
 // NewIrisApp creates a fully configured *iris.Application with the petstore

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/petstore-expanded/gin/api"
+	"github.com/jamilettel/oapi-codegen/v2/examples/petstore-expanded/gin/api"
 )
 
 // ErrNotFound is returned when a pet is not found in the store.

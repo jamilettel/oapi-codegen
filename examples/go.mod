@@ -1,8 +1,8 @@
-module github.com/oapi-codegen/oapi-codegen/v2/examples
+module github.com/jamilettel/oapi-codegen/v2/examples
 
 go 1.25.0
 
-replace github.com/oapi-codegen/oapi-codegen/v2 => ../
+replace github.com/jamilettel/oapi-codegen/v2 => ../
 
 require (
 	github.com/getkin/kin-openapi v0.148.0
@@ -23,7 +23,7 @@ require (
 	github.com/oapi-codegen/gin-middleware v1.0.2
 	github.com/oapi-codegen/iris-middleware v1.0.5
 	github.com/oapi-codegen/nethttp-middleware v1.1.2
-	github.com/oapi-codegen/oapi-codegen/v2 v2.0.0-00010101000000-000000000000
+	github.com/jamilettel/oapi-codegen/v2 v2.0.0-00010101000000-000000000000
 	github.com/oapi-codegen/runtime v1.7.0
 	github.com/oapi-codegen/testutil v1.1.0
 	github.com/stretchr/testify v1.12.1
@@ -129,4 +129,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-tool github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen
+tool github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen

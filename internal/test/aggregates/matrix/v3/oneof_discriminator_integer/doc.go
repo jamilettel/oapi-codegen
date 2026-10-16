@@ -6,4 +6,4 @@
 // oneOf with an integer discriminator that the union declares itself, so the From* helpers also assign the value to the union's own field.
 package matrixv3oneofdiscriminatorinteger
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

@@ -6,4 +6,4 @@
 // allOf decorating a $ref to an array with uniqueItems. Failed with "merging two schemas with different UniqueItems", and allOf over arrays dropped the items, giving []any.
 package matrixv3allofuniqueitems
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

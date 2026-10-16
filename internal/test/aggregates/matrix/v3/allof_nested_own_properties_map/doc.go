@@ -6,4 +6,4 @@
 // allOf over a $ref to a schema that declares a property next to an allOf with typed additionalProperties. v2 generates a map, and keeps it one rather than add the property (#2571); v3 keeps both.
 package matrixv3allofnestedownpropertiesmap
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

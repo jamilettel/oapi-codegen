@@ -6,4 +6,4 @@
 // allOf over a $ref to a schema that declares a property next to an allOf of a oneOf. v2 generates a bare union, and keeps it one rather than add the property (#2571); v3 adds the property to the union.
 package matrixv3allofnestedownpropertiesunion
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

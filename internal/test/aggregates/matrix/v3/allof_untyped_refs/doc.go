@@ -6,4 +6,4 @@
 // allOf over two $refs to untyped schemas and an annotation. Neither member places a constraint, so the composition is untyped. v1 used to embed both in a struct, which encodes the value under keys named after their types ({"Untyped": ..., "Other": ...}) and cannot decode the value itself (#2590).
 package matrixv3allofuntypedrefs
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

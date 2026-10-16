@@ -6,4 +6,4 @@
 // oneOf over two $ref object variants, without a discriminator.
 package matrixv3oneofrefs
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

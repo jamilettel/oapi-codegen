@@ -6,4 +6,4 @@
 // allOf over a $ref and annotation-only members: the "decorate a $ref" idiom OpenAPI 3.0 needs because it forbids siblings next to $ref.
 package matrixv3allofdecorator
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

@@ -6,4 +6,4 @@
 // allOf over two $refs to unions: a value is one of Payment's variants and one of Delivery's at once. Setting one union's variant must keep the other's data.
 package matrixv3allofofunions
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

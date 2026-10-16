@@ -4,7 +4,7 @@
 
 This page is a structural overview. The authoritative, always-current reference for every setting is:
 
-- the GoDoc for [`codegen.Configuration`](https://pkg.go.dev/github.com/oapi-codegen/oapi-codegen/v2/pkg/codegen#Configuration), which documents each field alongside its YAML key
+- the GoDoc for [`codegen.Configuration`](https://pkg.go.dev/github.com/jamilettel/oapi-codegen/v2/pkg/codegen#Configuration), which documents each field alongside its YAML key
 - [the JSON Schema](../configuration-schema.json), which gives your editor autocompletion, hover documentation and validation via the Language Server Protocol (LSP)
 
 To get the IDE experience, add this line to the top of your configuration file:
@@ -26,7 +26,7 @@ package: api
 # What to generate (only one server type at a time).
 # If the `generate` block is omitted entirely, it defaults to generating
 # an Echo server with models and an embedded spec.
-# See <a href="https://pkg.go.dev/github.com/oapi-codegen/oapi-codegen/v2/pkg/codegen#GenerateOptions">GenerateOptions</a>
+# See <a href="https://pkg.go.dev/github.com/jamilettel/oapi-codegen/v2/pkg/codegen#GenerateOptions">GenerateOptions</a>
 generate:
   chi-server: false
   echo-server: false
@@ -45,7 +45,7 @@ generate:
 
 # Backward compatibility settings. These preserve backward-compatible
 # behavior when a bug fix or improvement changes generated output.
-# See <a href="https://pkg.go.dev/github.com/oapi-codegen/oapi-codegen/v2/pkg/codegen#CompatibilityOptions">CompatibilityOptions</a>
+# See <a href="https://pkg.go.dev/github.com/jamilettel/oapi-codegen/v2/pkg/codegen#CompatibilityOptions">CompatibilityOptions</a>
 compatibility:
   schema-merging-behavior: v2   # v1, v2 or v3: how allOf, anyOf and oneOf become Go types; see <a href="schema-merging.md">schema-merging.md</a>
   old-merge-schemas: false      # deprecated: an alias for schema-merging-behavior: v1
@@ -66,7 +66,7 @@ compatibility:
   sort-handler-registrations: false
 
 # Output modification options
-# See <a href="https://pkg.go.dev/github.com/oapi-codegen/oapi-codegen/v2/pkg/codegen#OutputOptions">OutputOptions</a>
+# See <a href="https://pkg.go.dev/github.com/jamilettel/oapi-codegen/v2/pkg/codegen#OutputOptions">OutputOptions</a>
 output-options:
   include-tags: []
   exclude-tags: []

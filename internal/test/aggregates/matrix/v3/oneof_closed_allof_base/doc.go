@@ -6,4 +6,4 @@
 // The case of issue #668: a oneOf of a closed base and a schema that extends it with allOf, which the base's additionalProperties: false closes too. In v3, As* of the base rejects the extension's data.
 package matrixv3oneofclosedallofbase
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

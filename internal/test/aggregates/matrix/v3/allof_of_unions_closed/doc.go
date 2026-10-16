@@ -6,4 +6,4 @@
 // allOf over two $refs to unions whose variants have additionalProperties: false, and a member with a property of its own. In v3, As* of a variant allows the keys the other union's variants and the object declare, and rejects those of its own union's other variants.
 package matrixv3allofofunionsclosed
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

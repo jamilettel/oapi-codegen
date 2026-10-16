@@ -6,4 +6,4 @@
 // allOf over a $ref to an array of objects plus a constraint. Used to drop the items and generate []any.
 package matrixv3allofarray
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

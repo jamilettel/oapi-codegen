@@ -6,4 +6,4 @@
 // allOf decorating a $ref to an enum that has a default. Failed with "merging two sets of defaults is undefined" whenever either member had a default (#1379).
 package matrixv3allofdefault
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

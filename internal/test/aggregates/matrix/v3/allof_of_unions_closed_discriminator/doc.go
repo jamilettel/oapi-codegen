@@ -6,4 +6,4 @@
 // allof_of_unions_closed with a discriminator next to the allOf, which the merge gives to Payment. Payment's own type has no discriminator, so in v3 AsPayment leaves the key out, and Payment's closed variants read the rest.
 package matrixv3allofofunionscloseddiscriminator
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

@@ -6,4 +6,4 @@
 // allOf over a single $ref to an untyped schema. The composition is the untyped schema's type. v1 used to embed it in a struct, which encoding/json encodes as a field named after the type ({"Untyped": ...}), and decoding the value itself failed (#2590).
 package matrixv3allofsinglerefuntyped
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

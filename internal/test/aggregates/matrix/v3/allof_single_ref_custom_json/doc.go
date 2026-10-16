@@ -6,4 +6,4 @@
 // allOf over a single $ref to an object with additionalProperties. The composition is an alias of the referenced type, and keeps its generated MarshalJSON: at a strict-server response, the envelope has to delegate to it, or the additional properties are lost.
 package matrixv3allofsinglerefcustomjson
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

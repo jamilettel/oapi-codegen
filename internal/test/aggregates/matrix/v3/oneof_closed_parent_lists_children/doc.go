@@ -6,4 +6,4 @@
 // oneof_parent_lists_children with each child closed by additionalProperties: false in its own allOf member, which closes the child as a whole. The parent's oneOf, which lists the child, declares no keys for it: the other children's keys are still rejected.
 package matrixv3oneofclosedparentlistschildren
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

@@ -6,4 +6,4 @@
 // An object with fixed properties and typed additionalProperties. Not an aggregate, but it gets the same custom JSON methods, and the same envelope handling, as unions do.
 package matrixv3propertiesadditionalproperties
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

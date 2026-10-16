@@ -6,4 +6,4 @@
 // An object with a oneOf whose branches only add constraints: one of email or phone is required. They describe the object's valid values, not alternative types.
 package matrixv3oneofconstraints
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

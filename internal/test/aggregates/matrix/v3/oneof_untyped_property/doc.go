@@ -6,4 +6,4 @@
 // A union with an untyped property of its own (Go type any) that a variant also carries. From* must not panic on the property's nil interface value. The second sample spells out "meta": null because the union's MarshalJSON writes an unset untyped property as null, which predates this shape.
 package matrixv3oneofuntypedproperty
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

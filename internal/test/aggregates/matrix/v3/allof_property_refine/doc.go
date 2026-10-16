@@ -6,4 +6,4 @@
 // allOf over a $ref and a member that refines one of its properties, here to make it nullable, the way a JSON Merge Patch body reuses a resource's schema (issue #2107).
 package matrixv3allofpropertyrefine
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml

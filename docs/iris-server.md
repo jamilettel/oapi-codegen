@@ -107,7 +107,7 @@ Now we've got our implementation, we can then write the following code to wire i
 import (
 	"log"
 
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/minimal-server/iris/api"
+	"github.com/jamilettel/oapi-codegen/v2/examples/minimal-server/iris/api"
 	"github.com/kataras/iris/v12"
 )
 

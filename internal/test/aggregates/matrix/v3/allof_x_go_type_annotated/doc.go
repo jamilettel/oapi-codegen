@@ -6,4 +6,4 @@
 // allOf over a $ref to a schema that x-go-type replaces, and a member that only annotates it.
 package matrixv3allofxgotypeannotated
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
+//go:generate go run github.com/jamilettel/oapi-codegen/v2/cmd/oapi-codegen --config=config.yaml spec.yaml
