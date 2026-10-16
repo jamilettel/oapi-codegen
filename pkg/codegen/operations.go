@@ -125,6 +125,10 @@ func (pd *ParameterDefinition) JsonTag() string {
 	for i, k := range keys {
 		tags[i] = fmt.Sprintf(`%s:"%s"`, k, fieldTags[k])
 	}
+
+	if pd.Required {
+		tags = append(tags, `binding:"required"`)
+	}
 	return "`" + strings.Join(tags, " ") + "`"
 }
 
