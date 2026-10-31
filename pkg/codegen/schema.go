@@ -1924,8 +1924,18 @@ func GenFieldsFromProperties(props []Property) []string {
 		for i, k := range keys {
 			tags[i] = fmt.Sprintf(`%s:"%s"`, k, fieldTags[k])
 		}
-		if p.Required {
-			tags = append(tags, `binding:"required"`)
+		bindings := []string{}
+		if p.Required && !p.Nullable && p.Schema.GoType != "bool" {
+			bindings = append(bindings, "required")
+		}
+		if p.Nullable {
+			bindings = append(bindings, "omitnil")
+		}
+		if p.Extensions["x-validation"] != nil {
+			bindings = append(bindings, (p.Extensions["x-validation"]).(string))
+		}
+		if len(bindings) > 0 {
+			tags = append(tags, `binding:"`+strings.Join(bindings, ",")+`"`)
 		}
 		field += "`" + strings.Join(tags, " ") + "`"
 		fields = append(fields, field)
